@@ -38,6 +38,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -121,7 +122,6 @@
               ]
             },
             "id": "00c39183-510e-48c0-9b36-c4ab6644baa4",
-            "zIndex": 1,
             "data": {
               "type": "tm.Actor",
               "name": "Smartp Phone App",
@@ -154,6 +154,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -237,7 +238,6 @@
               ]
             },
             "id": "11b739fc-8ff2-475e-b111-623e5815da94",
-            "zIndex": 2,
             "data": {
               "type": "tm.Actor",
               "name": "Device Hub",
@@ -273,6 +273,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 3,
             "ports": {
               "groups": {
                 "top": {
@@ -356,7 +357,6 @@
               ]
             },
             "id": "c551a3e9-afe4-4867-8115-288c5c67c2fd",
-            "zIndex": 3,
             "data": {
               "type": "tm.Actor",
               "name": "Smart Light Bulb",
@@ -389,6 +389,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 4,
             "ports": {
               "groups": {
                 "top": {
@@ -472,7 +473,6 @@
               ]
             },
             "id": "ac403001-1c8b-48cd-90bf-596623481250",
-            "zIndex": 4,
             "data": {
               "type": "tm.Process",
               "name": "Pair Phone",
@@ -508,6 +508,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 5,
             "ports": {
               "groups": {
                 "top": {
@@ -591,7 +592,6 @@
               ]
             },
             "id": "ddb8afa7-b49a-4d2d-9eb6-645fb5a01a9a",
-            "zIndex": 5,
             "data": {
               "type": "tm.Process",
               "name": "Read Status",
@@ -627,6 +627,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 6,
             "ports": {
               "groups": {
                 "top": {
@@ -710,7 +711,6 @@
               ]
             },
             "id": "7c1f2754-6013-44e9-9b71-c8dc0d78904c",
-            "zIndex": 6,
             "data": {
               "type": "tm.Process",
               "name": "Write\nConfiguration",
@@ -1152,7 +1152,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "",
+                    "text": "On/Off",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -1176,20 +1176,20 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "",
+              "name": "On/Off",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
               "isBidirectional": false,
-              "isEncrypted": false,
+              "isEncrypted": true,
               "isPublicNetwork": false,
               "protocol": "",
               "threats": []
             },
-            "id": "add0ff80-1aac-485c-a8f0-3aeb40873b73",
+            "id": "c46c4fb1-573a-45d8-819a-e0d5242bdaa8",
             "source": {
-              "x": 746,
+              "x": 740,
               "y": 160
             },
             "target": {
@@ -1198,24 +1198,12 @@
             },
             "vertices": [
               {
-                "x": 800,
-                "y": 220
+                "x": 760,
+                "y": 190
               },
               {
-                "x": 820,
-                "y": 260
-              },
-              {
-                "x": 840,
-                "y": 260
-              },
-              {
-                "x": 840,
-                "y": 230
-              },
-              {
-                "x": 866,
-                "y": 170
+                "x": 810,
+                "y": 250
               }
             ]
           }
