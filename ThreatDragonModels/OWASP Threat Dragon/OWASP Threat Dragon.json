@@ -1008,92 +1008,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Bulb Status",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "id": "9a911326-af54-4f2c-9786-ef30c8e9fcea",
-            "source": {
-              "x": 810,
-              "y": 60
-            },
-            "target": {
-              "cell": "ddb8afa7-b49a-4d2d-9eb6-645fb5a01a9a",
-              "port": "049868ae-6024-4ba6-9a94-ed1e35b03d61"
-            },
-            "vertices": [
-              {
-                "x": 680,
-                "y": 20
-              },
-              {
-                "x": 660,
-                "y": 30
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "labels": [
-              {
-                "markup": [
-                  {
-                    "tagName": "ellipse",
-                    "selector": "labelBody"
-                  },
-                  {
-                    "tagName": "text",
-                    "selector": "labelText"
-                  }
-                ],
-                "attrs": {
-                  "labelText": {
-                    "text": "",
-                    "textAnchor": "middle",
-                    "textVerticalAnchor": "middle"
-                  },
-                  "labelBody": {
-                    "ref": "labelText",
-                    "refRx": "50%",
-                    "refRy": "60%",
-                    "fill": "#fff",
-                    "strokeWidth": 0
-                  }
-                },
-                "position": {
-                  "distance": 0.5,
-                  "args": {
-                    "keepGradient": true,
-                    "ensureLegibility": true
-                  }
-                }
-              }
-            ],
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "Command",
               "description": "",
               "outOfScope": false,
@@ -1152,7 +1066,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "On/Off",
+                    "text": "Bulb Status",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -1204,6 +1118,88 @@
               {
                 "x": 810,
                 "y": 250
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "labels": [
+              {
+                "markup": [
+                  {
+                    "tagName": "ellipse",
+                    "selector": "labelBody"
+                  },
+                  {
+                    "tagName": "text",
+                    "selector": "labelText"
+                  }
+                ],
+                "attrs": {
+                  "labelText": {
+                    "text": "Bulb Status",
+                    "textAnchor": "middle",
+                    "textVerticalAnchor": "middle"
+                  },
+                  "labelBody": {
+                    "ref": "labelText",
+                    "refRx": "50%",
+                    "refRy": "60%",
+                    "fill": "#fff",
+                    "strokeWidth": 0
+                  }
+                },
+                "position": {
+                  "distance": 0.5,
+                  "args": {
+                    "keepGradient": true,
+                    "ensureLegibility": true
+                  }
+                }
+              }
+            ],
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Bulb Status",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "1fda2ebe-8b19-4a05-9a8f-af4cc0f446a2",
+            "source": {
+              "x": 800,
+              "y": 50
+            },
+            "target": {
+              "cell": "ddb8afa7-b49a-4d2d-9eb6-645fb5a01a9a",
+              "port": "64241ede-e571-41f9-9c0d-7ac063f33044"
+            },
+            "vertices": [
+              {
+                "x": 660,
+                "y": 30
               }
             ]
           }
