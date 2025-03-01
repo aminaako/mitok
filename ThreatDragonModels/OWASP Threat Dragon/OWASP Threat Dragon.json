@@ -1,0 +1,16 @@
+{
+  "version": "2.3.0",
+  "summary": {
+    "title": "OWASP Threat Dragon",
+    "owner": "Amina Kozhanova",
+    "description": "my practice week6",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [],
+    "diagramTop": 0,
+    "reviewer": "Mohammed A. Saleh",
+    "threatTop": 0
+  }
+}
